@@ -13,7 +13,7 @@ A Model Context Protocol (MCP) server that provides weather information for citi
 ## Requirements
 
 - Node.js (v14 or higher)
-- npm or yarn
+- pnpm
 - OpenWeather API key (optional - will use mock data if not provided)
 
 ## Installation
@@ -21,11 +21,11 @@ A Model Context Protocol (MCP) server that provides weather information for citi
 1. Clone this repository
 2. Install dependencies:
    ```
-   npm install
+   pnpm install
    ```
 3. Build the server:
    ```
-   npm run build
+   pnpm run build
    ```
 
 ## Usage
@@ -33,7 +33,7 @@ A Model Context Protocol (MCP) server that provides weather information for citi
 ### Running locally
 
 ```
-npm start
+pnpm start
 ```
 
 ### Using with Claude or other MCP-compatible AI assistants
